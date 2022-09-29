@@ -1,6 +1,6 @@
 <?php
 
-namespace Vildanbina\LivewireWizard\Concerns;
+namespace Binyameencodes\LivewireWizard\Concerns;
 
 trait HasState
 {
