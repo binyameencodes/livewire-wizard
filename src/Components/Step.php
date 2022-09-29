@@ -1,14 +1,14 @@
 <?php
 
-namespace Vildanbina\LivewireWizard\Components;
+namespace Binyameencodes\LivewireWizard\Components;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\View\Component as ViewComponent;
-use Vildanbina\LivewireWizard\Concerns\BelongsToLivewire;
-use Vildanbina\LivewireWizard\Concerns\HasHooks;
-use Vildanbina\LivewireWizard\Contracts\WizardForm;
+use Binyameencodes\LivewireWizard\Concerns\BelongsToLivewire;
+use Binyameencodes\LivewireWizard\Concerns\HasHooks;
+use Binyameencodes\LivewireWizard\Contracts\WizardForm;
 
 abstract class Step extends ViewComponent implements Htmlable
 {
