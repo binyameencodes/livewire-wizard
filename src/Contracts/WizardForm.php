@@ -1,6 +1,6 @@
 <?php
 
-namespace Vildanbina\LivewireWizard\Contracts;
+namespace Binyameencodes\LivewireWizard\Contracts;
 
 interface WizardForm
 {
