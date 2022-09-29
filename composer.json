@@ -1,5 +1,5 @@
 {
-    "name": "vildanbina/livewire-wizard",
+    "name": "binyameencodes/livewire-wizard",
     "description": "Laravel Livewire Wizard (Multi-Step Form) component",
     "keywords": [
         "laravel",
@@ -8,12 +8,12 @@
         "wizard",
         "form"
     ],
-    "homepage": "https://github.com/vildanbina/livewire-wizard",
+    "homepage": "https://github.com/binyameencodes/livewire-wizard",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vildan Bina",
-            "email": "vildanbina@gmail.com",
+            "name": "Binyameen",
+            "email": "binyameencodes@gmail.com",
             "role": "Developer"
         }
     ],
@@ -25,16 +25,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Vildanbina\\LivewireWizard\\": "src"
+            "Binyameencodes\\LivewireWizard\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vildanbina\\LivewireWizard\\LivewireWizardServiceProvider"
+                "Binyameencodes\\LivewireWizard\\LivewireWizardServiceProvider"
             ],
             "aliases": {
-                "LivewireWizard": "Vildanbina\\LivewireWizard\\Facades\\LivewireWizard"
+                "LivewireWizard": "Binyameencodes\\LivewireWizard\\Facades\\LivewireWizard"
             }
         }
     },
