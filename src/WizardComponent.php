@@ -8,11 +8,11 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Component;
 use Str;
-use Vildanbina\LivewireWizard\Components\Step;
-use Vildanbina\LivewireWizard\Concerns\HasHooks;
-use Vildanbina\LivewireWizard\Concerns\HasState;
-use Vildanbina\LivewireWizard\Concerns\HasSteps;
-use Vildanbina\LivewireWizard\Contracts\WizardForm;
+use Binyameencodes\LivewireWizard\Components\Step;
+use Binyameencodes\LivewireWizard\Concerns\HasHooks;
+use Binyameencodes\LivewireWizard\Concerns\HasState;
+use Binyameencodes\LivewireWizard\Concerns\HasSteps;
+use Binyameencodes\LivewireWizard\Contracts\WizardForm;
 
 abstract class WizardComponent extends Component implements WizardForm
 {
